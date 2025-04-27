@@ -160,9 +160,6 @@ def ucs(node):
     global queue
     queue = queue + 1
 
-    print(generated)
-    print(node.cords)
-    print(expanded)
 
     if node.cords in node.dcords:
         node.move = node.move + "\nV"
